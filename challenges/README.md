@@ -3,10 +3,10 @@
 </h1>
 
 <h3 align="center">
-  Desafios Módulo 1 - Introdução a Programação WEB
+  Challenges Module 1 - Introduction to WEB programing
 </h3>
 
-<blockquote align="center">“Faça seu melhor, mas sempre com prazo de entrega!”</blockquote>
+<blockquote align="center">“Do your best, but always in time to deliver!”</blockquote>
 
 <p align="center">
 
@@ -21,23 +21,23 @@
 </p>
 
 <p align="center">
-  <a href="#rocket-desafios">Desafios</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#calendar-entrega">Entrega</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">Licença</a>
+  <a href="#rocket-challenges">Challenges</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#calendar-delivery">Delivery</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licence">Licence</a>
 </p>
 
-## :rocket: Desafios
+## :rocket: Challenges
 
-- [Primeiros passos com JavaScript](desafios/01-1-primeiros-passos-com-js.md)
-- [Lidando com objetos e vetores](desafios/01-2-lidando-com-objetos-e-vetores.md)
-- [Funções e estruturas de repetição](desafios/01-3-funcoes-e-estruturas-de-repeticao.md)
-- [Aplicação: Operações bancárias](desafios/01-4-aplicacao-operacoes-bancarias.md)
+- [First steps with JavaScript](challenge-1/01-1-primeiros-passos-com-js.md)
+- [Dealing with objects and vectors](challenge-2/01-2-lidando-com-objetos-e-vetores.md)
+- [Functions and repetition structures](challenge-3/01-3-funcoes-e-estruturas-de-repeticao.md)
+- [Application: Banking operations](challenge-4/01-4-aplicacao-operacoes-bancarias.md)
 
-## :calendar: Entrega
+## :calendar: Delivery
 
-Esses desafios **não precisam ser entregues** e não receberão correção, mas você pode ver um exemplo de solução [aqui](https://github.com/Rocketseat/bootcamp-launchbase-desafios-01/tree/codigos). Após concluí-los, adicionar esses códigos ao seu Github é uma boa forma de demonstrar seus conhecimentos para oportunidades futuras.
+These challenges **do not need to be delivered** and will not receive correction, but you can add them to your Github. It is a good way to demonstrate your knowledge for future opportunities.
 
-## :memo: Licença
+## :memo: Licence
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](/LICENSE) para mais detalhes.
 
