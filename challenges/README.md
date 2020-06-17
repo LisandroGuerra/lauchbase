@@ -6,7 +6,11 @@
   Challenges Module 1 - Introduction to WEB programing
 </h3>
 
-<blockquote align="center">“Do your best, but always in time to deliver!”</blockquote>
+<p align="center">
+  <blockquote align="center">
+    “Do your best, but always in time to deliver!”
+  </blockquote>
+</p>
 
 <p align="center">
 
