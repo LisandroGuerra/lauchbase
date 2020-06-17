@@ -29,9 +29,9 @@
 ## :rocket: Challenges
 
 - [First steps with JavaScript](challenge-1/challenge1-1/01-1-primeiros-passos-com-js.md)
-- [Dealing with objects and vectors](challenge-2/challenge1-2/01-2-lidando-com-objetos-e-vetores.md)
-- [Functions and repetition structures](challenge-3/challenge1-3/01-3-funcoes-e-estruturas-de-repeticao.md)
-- [Application: Banking operations](challenge-4/challenge1-4/01-4-aplicacao-operacoes-bancarias.md)
+- [Dealing with objects and vectors](challenge-1/challenge1-2/01-2-lidando-com-objetos-e-vetores.md)
+- [Functions and repetition structures](challenge-1/challenge1-3/01-3-funcoes-e-estruturas-de-repeticao.md)
+- [Application: Banking operations](challenge-1/challenge1-4/01-4-aplicacao-operacoes-bancarias.md)
 
 ## :calendar: Delivery
 
