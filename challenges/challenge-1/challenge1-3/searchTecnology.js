@@ -36,7 +36,7 @@ for (let user of users) {
 }
 
 
-
+// Search
 function worksWithCSS(user) {
     return user.tecnologies.includes('CSS');
 }
