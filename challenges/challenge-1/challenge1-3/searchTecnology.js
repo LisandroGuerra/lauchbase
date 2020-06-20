@@ -32,7 +32,7 @@ const users = [
 ]
 
 for (let user of users) {
-    console.log(`${user.name} works with ${user.tecnologies}.`);
+    console.log(`${user.name} works with ${user.tecnologies.join(", ")}.`);
 }
 
 
