@@ -52,10 +52,11 @@ From this data, store in a constant called `bmi` the calculation of the body mas
 weight / (height * height);
 ```
 
-Baseado no valor obtido através desse cálculo exiba as seguintes mensagens:
+Based on the value obtained through this calculation, display the following messages:
 
-- `SE` o `IMC` maior ou igual a `30`: Carlos você está acima do peso;
-- `SE` o `IMC` menor que `29.9`: Carlos você não está acima do peso;
+- `IF` the` BMI` greater than or equal to `30`: Carlos you are overweight;
+- `IF` the` BMI` less than `29.9`: Carlos you are not overweight;
+
 
 ### Cálculo de aposentadoria
 
