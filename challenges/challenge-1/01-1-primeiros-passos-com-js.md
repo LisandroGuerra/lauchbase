@@ -3,10 +3,10 @@
 </h1>
 
 <h3 align="center">
-  Desafio 1-1: Primeiros passos com JS
+  Challenge 1-1: First steps with JS
 </h3>
 
-<blockquote align="center">“Querer vencer significa já ter percorrido metade do caminho.”</blockquote>
+<blockquote align="center">“Wanting to win means already being halfway.”</blockquote>
 
 <p align="center">
 
@@ -21,35 +21,35 @@
 </p>
 
 <p align="center">
-  <a href="#rocket-sobre-o-desafio">Sobre o desafio</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#calendar-entrega">Entrega</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">Licença</a>
+  <a href="#rocket-sobre-o-desafio">About the challenge</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#calendar-entrega">Delivery</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licença">Licence</a>
 </p>
 
-## :rocket: Sobre o desafio
+## :rocket: About the challenge
 
 Desafios para fortalecer alguns conceitos, entre eles:
 
-- **Variáveis**;
-- **Condicionais**;
-- **Operadores**.
+- **Variables**;
+- **Conditionals**;
+- **Operators**.
 
-### Cálculo de IMC
+### BMI calculation
 
-Crie um programa para calcular o IMC e nível de obesidade de uma pessoa.
+Create a program to calculate a person's BMI and obesity level.
 
-Comece criando constantes para armazenar o `nome`, `peso`, `altura` e `sexo` de uma pessoa, por exemplo:
+Start by creating constants to store a person's `name`,` weight`, `height` and `gender`, for example:
 
 ```js
-const nome = "Carlos";
-const peso = 84;
-const altura = 1.88;
+const name = "Carlos";
+const weight = 84;
+const height = 1.88;
 ```
 
-A partir desses dados armazene em uma constante chamada `imc` o cálculo do índice de massa corporal definido pela fórmula abaixo:
+From this data, store in a constant called `bmi` the calculation of the body mass index defined by the formula below:
 
 ```js
-peso / (altura * altura);
+weight / (height * height);
 ```
 
 Baseado no valor obtido através desse cálculo exiba as seguintes mensagens:
