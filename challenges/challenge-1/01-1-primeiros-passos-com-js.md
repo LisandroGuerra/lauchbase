@@ -58,53 +58,54 @@ Based on the value obtained through this calculation, display the following mess
 - `IF` the` BMI` less than `29.9`: Carlos you are not overweight;
 
 
-### Cálculo de aposentadoria
+### Retirement calculation
 
-Crie um programa para calcular a aposentadoria de uma pessoa.
+Create a program to calculate a person's retirement.
 
-_Obs.: Esse cálculo é fictício, dentro da aposentadoria existem muitos outros fatores para serem levados em conta :)_
+_Obs .: This calculation is fictitious, within retirement there are many other factors to be taken into account:)_
 
-Comece criando constantes para armazenar `nome`, `sexo`, `idade` e `contribuicao`(em anos), por exemplo:
+Start by creating constants to store `name`, `gender`, `age` and `contribution` (in years), for example:
 
 ```js
-const nome = "Silvana";
-const sexo = "F";
-const idade = 48;
-const contribuicao = 23;
+const name = "Silvana";
+const gender = "F";
+const age = 48;
+const contribution = 23;
 ```
 
-Baseado nos valores acima utilize as fórmulas a seguir para calcular se a pessoa está apta ou não para se aposentar e no fim imprima uma mensagem em tela.
+Based on the values ​​above, use the following formulas to calculate whether the person is able or not to retire, and at the end print a message on screen.
 
-- O tempo de contribuição mínimo para **homens** é de **35 anos** e, para **mulheres**, **30 anos**;
-- Utilizando a regra 85-95, a soma da idade com o tempo de contribuição do **homem** precisa ser de no mínimo 95 anos, enquanto a **mulher** precisa ter no mínimo 85 anos na soma;
+- The minimum contribution time for **men** is **35 years** and, for **women**, **30 years**;
+- Using the rule 85-95, the sum of the age and the contribution time of the **man** must be at least **95 points**, while the **woman** must be at least **85 points** in the sum;
 
-Com base nas regras acima imprima na tela as mensagens:
+Based on the rules above, print the messages on the screen:
 
-- `SE` a pessoa estiver aposentada: `Silvana, você pode se aposentar!`;
-- `SE` a pessoa NÃO estiver aposentada: `Silvana, você ainda não pode se aposentar!`;
+- `IF` the person is retired: `Silvana, you can retire!`;
+- `IF` the person is NOT retired: `Silvana, you still cannot retire!`;
 
-_Dica: Você pode unir duas condições, veja o exemplo abaixo_
+
+_Tip: You can join two conditions, see the example below_
 
 ```js
-if (condicao1) {
-  if (condicao2) {
-    // Condição 1 e 2 passaram
+if (condition1) {
+  if (condition2) {
+    // Condition 1 and 2 passed
   } else {
-    // Condição 1 passou, porém condição 2 não passou
+    // Condition 1 passed, but condition 2 did not
   }
 } else {
-  // Condição 1 não passou
+  // Condition 1 has not passed
 }
 ```
 
-## :calendar: Entrega
+## :calendar: Delivery
 
-Esse desafio **não precisa ser entregue** e não receberá correção, mas você pode ver um exemplo de solução [aqui](https://github.com/Rocketseat/bootcamp-launchbase-desafios-01/tree/codigos). Após concluí-lo, adicionar esse código ao seu Github é uma boa forma de demonstrar seus conhecimentos para oportunidades futuras.
+These challenges **do not need to be delivered** and will not receive correction, but you can add them to your Github. It is a good way to demonstrate your knowledge for future opportunities.
 
-## :memo: Licença
+## :memo: Licence
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](../LICENSE) para mais detalhes.
+This project is under the MIT license. See the [LICENSE](../LICENSE) file for more detais.
 
 ---
 
-Feito com :purple_heart: by [Rocketseat](https://rocketseat.com.br) :wave: [Entre na nossa comunidade!](https://discordapp.com/invite/gCRAFhc)
+Built with :purple_heart: by [Rocketseat](https://rocketseat.com.br) :wave: [Join our community!](https://discordapp.com/invite/gCRAFhc)
