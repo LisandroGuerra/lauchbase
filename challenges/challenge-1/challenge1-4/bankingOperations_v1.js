@@ -14,7 +14,7 @@ function createTransaction(transaction){
     user.transactions.push(transaction)
 }
 
-//Relatórios
+//Reports
 function getHigherTransactionByType(transactionType){
     const transactions = user.transactions
     let higherTransaction
