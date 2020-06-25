@@ -3,10 +3,10 @@
 </h1>
 
 <h3 align="center">
-  Desafio 2-1: Primeiro HTML
+  Challenge 2-1: First HTML
 </h3>
 
-<blockquote align="center">“Sua única limitação é você mesmo!”</blockquote>
+<blockquote align="center">“Your only limitation is yourself!”</blockquote>
 
 <p align="center">
 
@@ -21,18 +21,18 @@
 </p>
 
 <p align="center">
-  <a href="#rocket-sobre-o-desafio">Sobre o desafio</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#calendar-entrega">Entrega</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">Licença</a>
+  <a href="#rocket-about-the-challenge">About the challenge</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#calendar-delivery">Delivery</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licence">Licence</a>
 </p>
 
-## :rocket: Sobre o desafio
+## :rocket: About the challenge
 
-Criar um arquivo html que contenha um [favicon](favicon.ico) e um header com 3 links: Comunidade, Email e Telefone.
+Create an html file that contains a [favicon](favicon.ico) and a header with 3 links: Community, Email and Telephone.
 
 ### Favicon
 
-O favicon é o ícone que aparece na aba do navegador. O arquivo está disponível com o nome favicon.ico. Para utilizá-lo é necessário importá-lo com a tag link no html. ser dada a dica de utilizar a tag link na head do html.
+The favicon is the icon that appears on the browser tab. The file is available under the name favicon.ico. To use it, it is necessary to import it with the link tag in the html. the tip of using the link tag in the head of the html will be given.
 
 ```html
 <link rel="icon" href="favicon.ico" type="image/x-icon" />
@@ -40,30 +40,32 @@ O favicon é o ícone que aparece na aba do navegador. O arquivo está disponív
 
 ### Links
 
-- `Comunidade`: Link que deve apontar para o convite da comunidade aberta da rocketseat `(https://discordapp.com/invite/gCRAFhc)`
+- `Community` : Link that should point to the invitation from the open community of rocketseat `(https://discordapp.com/invite/gCRAFhc)`
 
-- `Email`: Link que deve chamar o comando de enviar email para o destinatário `oi@rocketseat.com.br`. Dica: utilize o comando `mailto` dentro do `href`;
+- `Email` : Link that should call the command to send email to the recipient `hi @ rocketseat.com.br`. Tip: use the `mailto` command inside `href`;
 
-- `Telefone`: Link que deve chamar o comando de realizar uma ligação para o número `+5547992078767`. Dica: utilize o comando `tel` dentro do `href`;
+- `Telephone` : Link that should call the command to make a call to the number `+ 5547992078767`. Tip: use the command `tel` inside `href`;
 
-### Estilização
 
-Você tem liberdade para escolher a estilização que preferir para esse desafio, mas alguns pontos são obrigatórios:
 
-- Deve ser aplicado um background
-- Deve ser utilizada a fonte Roboto
-- O header precisa ocupar todo o espaço lateral e superior (body sem margin)
-- O header precisa ter um espaçamento interno de 30px em todas as direções
-- Os links devem ter um espaçamento de 30px entre si
+### Styles
 
-## :calendar: Entrega
+You are free to choose the style you prefer for this challenge, but some points are mandatory:
 
-Esse desafio **não precisa ser entregue** e não receberá correção. Após concluí-lo, adicionar esse código ao seu Github é uma boa forma de demonstrar seus conhecimentos para oportunidades futuras.
+- A background must be applied
+- The Roboto font must be used
+- The header needs to occupy the entire lateral and upper space (body without margin)
+- The header must have an internal spacing of 30px in all directions
+- Links must be 30px apart
 
-## :memo: Licença
+## :calendar: Delivery
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](../LICENSE) para mais detalhes.
+These challenges **do not need to be delivered** and will not receive correction, but you can add them to your Github. It is a good way to demonstrate your knowledge for future opportunities.
+
+## :memo: Licence
+
+This project is under the MIT license. See the [LICENSE](../LICENSE) file for more detais.
 
 ---
 
-Feito com :purple_heart: by [Rocketseat](https://rocketseat.com.br) :wave: [Entre na nossa comunidade!](https://discordapp.com/invite/gCRAFhc)
+Built with :purple_heart: by [Rocketseat](https://rocketseat.com.br) :wave: [Join our community!](https://discordapp.com/invite/gCRAFhc)
