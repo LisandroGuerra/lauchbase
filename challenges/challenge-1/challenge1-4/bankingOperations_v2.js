@@ -1,8 +1,9 @@
 let user = {
-    name: "Mariana",
+    name: "Lisandra",
     transactions: [],
     balance: 0
   };
+
 
 function createTransaction(transaction){
     if (transaction.type === 'debit'){
@@ -14,26 +15,25 @@ function createTransaction(transaction){
     user.transactions.push(transaction)
 }
 
-//Relatórios
+
+//Reports
 function getHigherTransactionByType(transactionType){
-    const transactions = user.transactions
+    const transactions = user.transactions.filter(transaction => {return transaction.type == transactionType})
     let higherTransaction
-    for (let transaction of transactions){
-        if (transaction.type === transactionType){
-            if (higherTransaction === undefined){
+    for (let transaction of transactions){    
+        if (higherTransaction === undefined){
+            higherTransaction = transaction
+        }
+        else{
+            if (higherTransaction.value < transaction.value){
                 higherTransaction = transaction
             }
-            else{
-                if (higherTransaction.value < transaction.value){
-                    higherTransaction = transaction
-                }
-            }
-
-        }
+        }  
     }
     return higherTransaction
 
 }
+
 
 function getAverageTransactionValue(){
     const transactions = user.transactions
@@ -47,22 +47,25 @@ function getAverageTransactionValue(){
     return averageTransaction    
 }
 
+
 function getTransactionsCount(){
-    //getTransactionsCount(); // { credit: 5, debit: 3 }
     const transactions = user.transactions
-    let creditCount = 0
-    let debitCount = 0
+    let transactionsCount = {
+        credit: 0,
+        debit: 0
+    }
     for (let transaction of transactions) {
         if (transaction.type === 'credit'){
-            creditCount++
+            transactionsCount.credit++
         }
         else{
-            debitCount++
+            transactionsCount.debit++
         }
     }
 
-    return {credit: creditCount, debit: debitCount}
+    return transactionsCount
 }
+
 
 
 // TEST
@@ -76,10 +79,10 @@ function test(obtained, expected){
     const jsonExpected = JSON.stringify(expected)
     let prefix
     if (jsonObtained == jsonExpected){
-        prefix = 'OK - '
+        prefix = 'PASSED -> '
     }
     else{
-        prefix = 'ERROR - '
+        prefix = 'ERROR -> '
     }
     console.log(`${prefix} ${jsonObtained}`)
 }

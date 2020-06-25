@@ -1,5 +1,5 @@
 let user = {
-    name: "Mariana",
+    name: "Lisandra",
     transactions: [],
     balance: 0
   };
