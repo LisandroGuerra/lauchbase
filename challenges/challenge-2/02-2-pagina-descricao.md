@@ -2,11 +2,11 @@
     <img alt="Launchbase" src="https://storage.googleapis.com/golden-wind/bootcamp-launchbase/logo.png" width="400px" />
 </h1>
 
-<h3 align="center">
-  Desafio 2-2: Página de descrição
+<h3 align = "center">
+  Challenge 2-2: Description page
 </h3>
 
-<blockquote align="center">“Quanto mais você estuda, mais aprende e se aproxima de realizar seu sonhos!”</blockquote>
+<blockquote align = "center"> “The more you study, the more you learn and get closer to making your dreams come true!” </blockquote>
 
 <p align="center">
 
@@ -21,40 +21,46 @@
 </p>
 
 <p align="center">
-  <a href="#rocket-sobre-o-desafio">Sobre o desafio</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#calendar-entrega">Entrega</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">Licença</a>
+  <a href="#rocket-about-the-challenge">About the challenge</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#calendar-delivery">Delivery</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licence">Licence</a>
 </p>
 
-## :rocket: Sobre o desafio
 
-A partir do arquivo do desafio 2-1, adicionar um novo link no header chamado Sobre. Essa página deverá mostrar informações referentes a Rocketseat.
+## :rocket: About the challenge
 
-### Informações da página
+From challenge 2-1, add a new link in the header called About. This page should show information regarding Rocketseat.
 
-- Uma imagem da logo da empresa
-- O nome da empresa
-- Uma breve descrição da empresa
-- Uma lista com as principais tecnologias utilizadas. Dica: utilize a tag `ul` para lista e `li` para o item da lista.
-- Links para as redes sociais da empresa (Github, Instagram e Facebook)
 
-### Estilização
+### Page information
 
-Você tem liberdade para escolher a estilização que preferir para esse desafio, mas alguns pontos são obrigatórios:
+- An image of the company logo
+- The name of the company
+- A brief description of the company
+- A list of the main technologies used. Tip: use the `ul` tag for the list and `li` for the list item.
+- Links to the company's social networks (Github, Instagram and Facebook)
 
-- A imagem deve ter uma borda e um formato circular.
-- Deve ser utilizada a fonte Roboto
-- O nome da empresa e a imagem devem ser destacar do restante
-- Os links das redes sociais devem ter alguma alteração visual quando o cursor do mouse passar por cima
 
-## :calendar: Entrega
+### Stylization
 
-Esse desafio **não precisa ser entregue** e não receberá correção. Após concluí-lo, adicionar esse código ao seu Github é uma boa forma de demonstrar seus conhecimentos para oportunidades futuras.
+You are free to choose the style you prefer for this challenge, but some points are mandatory:
 
-## :memo: Licença
+- The image must have a border and a circular shape.
+- The Roboto font must be used
+- The company name and image must be highlighted from the rest
+- Social media links must have some visual change when the mouse cursor passes over
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](../LICENSE) para mais detalhes.
+
+
+## :calendar: Delivery
+
+These challenges **do not need to be delivered** and will not receive correction, but you can add them to your Github. It is a good way to demonstrate your knowledge for future opportunities.
+
+## :memo: Licence
+
+This project is under the MIT license. See the [LICENSE](../LICENSE) file for more detais.
 
 ---
 
-Feito com :purple_heart: by [Rocketseat](https://rocketseat.com.br) :wave: [Entre na nossa comunidade!](https://discordapp.com/invite/gCRAFhc)
+Built with :purple_heart: by [Rocketseat](https://rocketseat.com.br) :wave: [Join our community!](https://discordapp.com/invite/gCRAFhc)
+
