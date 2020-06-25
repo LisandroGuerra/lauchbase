@@ -2,11 +2,11 @@
     <img alt="Launchbase" src="https://storage.googleapis.com/golden-wind/bootcamp-launchbase/logo.png" width="400px" />
 </h1>
 
-<h3 align="center">
-  Desafio: Construindo Foodfy
+<h3 align = "center">
+  Challenge: Building Foodfy
 </h3>
 
-<blockquote align="center">“Sua única limitação é você mesmo!”</blockquote>
+<blockquote align = "center"> “Your only limitation is yourself!” </blockquote>
 
 <p align="center">
 
@@ -21,45 +21,53 @@
 </p>
 
 <p align="center">
-  <a href="#rocket-sobre-o-desafio">Sobre o desafio</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#calendar-entrega">Entrega</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">Licença</a>
+  <a href="#rocket-about-the-challenge">About the challenge</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#calendar-delivery">Delivery</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licence">Licence</a>
 </p>
 
-## :rocket: Sobre o desafio
 
-Nesse desafio você vai construir um site completo para uma empresa de receitas chamada Foodfy.
+## :rocket: About the challenge
+
+In this challenge you will build a complete website for a food recipes company called Foodfy.
 
 <div align="center">
   <img src="https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/mockup.png" />
 </div>
 
-### Materiais
 
-**Download dos arquivos:** https://github.com/Rocketseat/bootcamp-launchbase-desafios-02/archive/master.zip
-**Apresentação do desafio:** https://vimeo.com/372742889/63b926d7e0
+### Materials
 
-### Abrindo specs do layout
+**Download the files:** https://github.com/Rocketseat/bootcamp-launchbase-desafios-02/archive/master.zip
 
-Acesse o arquivo `layouts/specs/index.html` para ver todas especificações do layout da aplicação.
+**Presentation of the challenge:** https://vimeo.com/372742889/63b926d7e0
 
-### Imagens do layout
 
-Acesse a pasta `layouts/assets` para obter todas imagens utilizadas no layout.
+### Opening layout specs
 
-### Dicas e regras
+Access the file `layouts/specs/index.html` to see all specifications of the application layout.
 
-1. Dê uma boa olhada no material extra de CSS & HTML, esse material pode conter dicas importantes para você construir o layout desse website;
-2. Na página de receitas, quando o usuário clica em uma receita, um modal deve aparecer em tela contendo as mesmas informações da receita que ele clicou;
 
-## :calendar: Entrega
+### Layout images
 
-Esse desafio **não precisa ser entregue** e não receberá correção. Após concluí-lo, adicionar esse código ao seu Github é uma boa forma de demonstrar seus conhecimentos para oportunidades futuras.
+Access the folder `layouts/assets` to get all images used in the layout.
 
-## :memo: Licença
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](../LICENSE) para mais detalhes.
+### Tips and rules
+
+1. Take a good look at the extra CSS & HTML material, this material may contain important tips for you to build the layout of this website;
+2. On the recipes page, when the user clicks on a recipe, a modal should appear on the screen containing the same information as the recipe he clicked;
+
+
+
+## :calendar: Delivery
+
+These challenges **do not need to be delivered** and will not receive correction, but you can add them to your Github. It is a good way to demonstrate your knowledge for future opportunities.
+
+## :memo: Licence
+
+This project is under the MIT license. See the [LICENSE](../LICENSE) file for more detais.
 
 ---
 
-Feito com :purple_heart: by [Rocketseat](https://rocketseat.com.br) :wave: [Entre na nossa comunidade!](https://discordapp.com/invite/gCRAFhc)
+Built with :purple_heart: by [Rocketseat](https://rocketseat.com.br) :wave: [Join our community!](https://discordapp.com/invite/gCRAFhc)
