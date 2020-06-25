@@ -2,11 +2,11 @@
     <img alt="Launchbase" src="https://storage.googleapis.com/golden-wind/bootcamp-launchbase/logo.png" width="400px" />
 </h1>
 
-<h3 align="center">
-  Desafio 2-3: Página de cursos e iframe
+<h3 align = "center">
+  Challenge 2-3: Courses and iframe page
 </h3>
 
-<blockquote align="center">“Você nunca sai perdendo quando ganha conhecimento!”</blockquote>
+<blockquote align = "center"> “You never lose when you gain knowledge!” </blockquote>
 
 <p align="center">
 
@@ -21,46 +21,47 @@
 </p>
 
 <p align="center">
-  <a href="#rocket-sobre-o-desafio">Sobre o desafio</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#calendar-entrega">Entrega</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">Licença</a>
+  <a href="#rocket-about-the-challenge">About the challenge</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#calendar-delivery">Delivery</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licence">Licence</a>
 </p>
 
-## :rocket: Sobre o desafio
 
-A partir do arquivo do desafio 2.2, adicionar no header um link chamado Conteúdos. Essa página deve conter um grid onde devem ser mostrados os 3 principais cursos da Rocketseat: Starter, Launchbase e GoStack. Ao clicar em um dos cursos, deve ser aberta uma modal onde um iframe irá carregar as informações do curso selecionado.
+## :rocket: About the challenge
 
-### Informações da página
+From the challenge 2.2 file, add a link called Contents in the header. This page should contain a grid where the 3 main courses of Rocketseat should be shown: Starter, Launchbase and GoStack. When clicking on one of the courses, a modal must be opened where an iframe will load the information of the selected course.
 
-- Título da página
-- Grid com 3 colunas e 1 linha onde serão apresentados os cards dos cursos
+### Page information
 
-## Informações do card
+- Page title
+- Grid with 3 columns and 1 row where course cards will be presented
 
-- Logo do curso ([Starter](https://skylab.rocketseat.com.br/static/64c237ccff807c054339a62d53b4b402.svg), [Launchbase](https://skylab.rocketseat.com.br/static/0828532024cb46921a6b5e941f8d788d.svg) e [GoStack](https://skylab.rocketseat.com.br/static/83a178a0653dab1d55e2ed7946465975.svg))
-- Título do curso
-- Quantidade de módulos dos cursos
-- Informação se o curso é gratuito ou pago
+## Card information
+
+- Course Logo ([Starter](https://skylab.rocketseat.com.br/static/64c237ccff807c054339a62d53b4b402.svg), [Launchbase](https://skylab.rocketseat.com.br/static/0828532024cb46921a6b5e941f8d788d.svg) and [GoStack](https://skylab.rocketseat.com.br/static/83a178a0653dab1d55e2ed7946465975.svg))
+- Course title
+- Number of course modules
+- Information if the course is free or paid
 
 ## Modal
 
-O modal deve conter um iframe que busca a página do curso (dica: basta adicionar `starter`, `launchbase` ou `gostack` ao final de `https://rocketseat.com.br/`). Além do botão de fechar o modal, é preciso implementar a funcionalidade de maximizar o modal (dica: utilize a mesma lógica implementada para fechar o `modalOverlay`, mas trabalhe com a classe `modal` e utilize o método `contains` do `classList` para verificar se o elemento está ou não com a classe `maximize`).
+The modal must contain an iframe that fetches the course page (hint: just add `starter`,` launchbase` or `gostack` to the end of `https: // rocketseat.com.br / `). In addition to the modal close button, it is necessary to implement the functionality of maximizing the modal (hint: use the same logic implemented to close the `modalOverlay`, but work with the` modal` class and use the `contains` method of the `classList `to check whether or not the element is in the` maximize` class).
 
-### Estilização
+### Stylization
 
-Você tem liberdade para escolher a estilização que preferir para esse desafio, mas alguns pontos são obrigatórios:
+You are free to choose the style you prefer for this challenge, but some points are mandatory:
 
-- Deve ser utilizado o grid para organizar os cursos
-- O modal nunca deve abrir maximizado
+- The grid should be used to organize the courses
+- The modal should never open maximized
 
-## :calendar: Entrega
+## :calendar: Delivery
 
-Esse desafio **não precisa ser entregue** e não receberá correção. Após concluí-lo, adicionar esse código ao seu Github é uma boa forma de demonstrar seus conhecimentos para oportunidades futuras.
+These challenges **do not need to be delivered** and will not receive correction, but you can add them to your Github. It is a good way to demonstrate your knowledge for future opportunities.
 
-## :memo: Licença
+## :memo: Licence
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](../LICENSE) para mais detalhes.
+This project is under the MIT license. See the [LICENSE](../LICENSE) file for more detais.
 
 ---
 
-Feito com :purple_heart: by [Rocketseat](https://rocketseat.com.br) :wave: [Entre na nossa comunidade!](https://discordapp.com/invite/gCRAFhc)
+Built with :purple_heart: by [Rocketseat](https://rocketseat.com.br) :wave: [Join our community!](https://discordapp.com/invite/gCRAFhc)
