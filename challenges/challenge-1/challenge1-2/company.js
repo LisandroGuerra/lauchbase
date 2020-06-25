@@ -3,7 +3,7 @@ const user = {
     company: {
         name: 'Rocketseat',
         color: 'Purple',
-        spot: 'Computer programing',
+        spot: 'Computer programming',
         address: {
             street: "Guilherme Gembala street",
             number: 260

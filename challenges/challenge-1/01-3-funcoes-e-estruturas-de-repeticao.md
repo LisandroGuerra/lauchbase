@@ -3,10 +3,10 @@
 </h1>
 
 <h3 align="center">
-  Desafio 1-3: Funções e estruturas de repetição
+  Challenge 1-3: Functions and repeating structures
 </h3>
 
-<blockquote align="center">“Quer você acredite que consiga fazer uma coisa ou não, você está certo.”</blockquote>
+<blockquote align="center">“Whether you believe you can do something or not, you are right.”</blockquote>
 
 <p align="center">
 
@@ -21,123 +21,130 @@
 </p>
 
 <p align="center">
-  <a href="#rocket-sobre-o-desafio">Sobre o desafio</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#calendar-entrega">Entrega</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">Licença</a>
+  <a href="#rocket-about-the-challenge">About the challenge</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#calendar-delivery">Delivery</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licence">Licence</a>
 </p>
 
-## :rocket: Sobre o desafio
+## :rocket: About challenge
 
-Desafios para fortalecer alguns conceitos, entre eles:
+Challenges to strengthen some concepts, among them:
 
-- **Funções e métodos**;
-- **Estruturas de repetição**;
-- **Escopos**.
+- **Functions and methods**;
+- **Repeating structures**;
+- **Scopes**.
 
-### Usuários e tecnologias
+### Users and tecnologies
 
-Crie um programa que armazena um array de usuários (objetos), cada usuário tem um `nome` e suas `tecnologias` (novo array), por exemplo:
+Create a program that stores an array of users (objects), each user has a `name` and its `technologies` (new array), for example:
 
 ```js
-const usuarios = [
-  { nome: "Carlos", tecnologias: ["HTML", "CSS"] },
-  { nome: "Jasmine", tecnologias: ["JavaScript", "CSS"] },
-  { nome: "Tuane", tecnologias: ["HTML", "Node.js"] }
+const users = [
+  {name: "Carlos", technologies: ["HTML", "CSS"]},
+  {name: "Jasmine", technologies: ["JavaScript", "CSS"]},
+  {name: 'Lisandro', tecnologies: ["HTML", "CSS", "JavaScript", "Python"]},
+  {name: "Tuane", technologies: ["HTML", "Node.js"]}
 ];
 ```
 
-Percorra a lista de usuários com uma estrutura de repetição imprimindo em tela as informações dos usuários:
+Scroll through the list of users with a repetition structure by printing the user information on screen:
 
 ```
-Carlos trabalha com HTML, CSS
-Jarmine trabalha com JavaScript, CSS
-Tuane trabalha com HTML, Node.js
+Carlos works with HTML, CSS
+Jarmine works with JavaScript, CSS
+Lisandro works with HTML, CSS, JavaScript, Python
+Tuane works with HTML, Node.js
 ```
 
-### Busca por tecnologia
 
-Baseado no desafio anterior, utilize a mesma lista de usuários construída.
 
-Crie uma função que recebe os dados de um objeto de usuário e retorna SE o usuário trabalha com CSS ou não. Essa função deve retornar um boolean `true/false`.
+### Search for technology
 
-Por exemplo:
+Based on the previous challenge, use the same user list built.
+
+Create a function that receives data from a user object and returns `IF` user works with CSS or not. This function must return a boolean `true / false`.
+
+For example:
 
 ```js
-function checaSeUsuarioUsaCSS(usuario) {
-  // Percorra o array de tecnologias do usuário até encontrar se ele trabalha com CSS
-  // SE encontrar, retorne true da função, caso contrário retorne false
+function checkSeUserUseCSS (user) {
+  // Scroll through the user's technology array until you find if he works with CSS
+  // IF found, the function returns true , otherwise returns false
 }
 ```
 
-Percorra o array de usuários e, para cada um, verifique se o mesmo trabalha com CSS utilizando a função construída acima, se SIM, imprima em tela as informações do usuário:
+Scroll through the array of users and, for each one, check if it works with CSS using the function built above, if YES, print the user's information on screen:
 
 ```js
-for (let i = 0; i < usuarios.length; i++) {
-  const usuarioTrabalhaComCSS = checaSeUsuarioUsaCSS(usuario[i]);
+for (let i = 0; i <users.length; i ++) {
+  const userWorksWithCSS = checkSeUserUseCSS(user[i]);
 
-  if (usuarioTrabalhaComCSS) {
-    console.log(`O usuário ${usuario[i].nome} trabalha com CSS`);
+  if (userWorksWithCSS) {
+    console.log (`The user ${user[i].name} works with CSS`);
   }
 }
 ```
 
-### Soma de despesas e receitas
 
-Crie um programa que calcula a soma de receitas e despesas de usuários e no fim retorna o saldo (`receitas - despesas`).
+### Sum of expenses and incomes
 
-Utilize o array de usuários abaixo:
+Create a program that calculates the sum of income and expenses of users, and at the end returns the balance (`income - expenses`).
+
+Use the user array below:
 
 ```js
-const usuarios = [
+const users = [
   {
-    nome: "Salvio",
-    receitas: [115.3, 48.7, 98.3, 14.5],
-    despesas: [85.3, 13.5, 19.9]
+    name: "Salvio",
+    revenue: [115.3, 48.7, 98.3, 14.5],
+    expenses: [85.3, 13.5, 19.9]
   },
   {
-    nome: "Marcio",
-    receitas: [24.6, 214.3, 45.3],
-    despesas: [185.3, 12.1, 120.0]
+    name: "Marcio",
+    revenue: [24.6, 214.3, 45.3],
+    expenses: [185.3, 12.1, 120.0]
   },
   {
-    nome: "Lucia",
-    receitas: [9.8, 120.3, 340.2, 45.3],
-    despesas: [450.2, 29.9]
+    name: "Lucia",
+    revenue: [9.8, 120.3, 340.2, 45.3],
+    expenses: [450.2, 29.9]
   }
 ];
 ```
 
-Percorra o array de usuários e para cada usuário chame uma função chamada `calculaSaldo` que recebe como parâmetro as receitas e despesas do usuário:
+Scroll through the user array and for each user call a function called `calculatesBalance` that takes the user's incomes and expenses as a parameter:
 
 ```js
-function calculaSaldo(receitas, despesas) {}
+function calculatesBalance (incomes, expenses) {}
 ```
 
-Crie uma segunda função que recebe como parâmetro um array de números e retorna a soma deles e use-a para calcular a soma de receitas e despesas dentro da função `calculaSaldo`:
+Create a second function that takes as an parameter an array of numbers and returns the sum of them and use it to calculate the sum of incomes and expenses within the function `calculatesBalance`:
 
 ```js
-function somaNumeros(numeros) {
-  // Soma todos números dentro do array "numeros"
+function addNumbers (numbers) {
+  // Adds all numbers inside the "numbers" array
 }
 ```
 
-A função `calculaSaldo` deve utilizar a função `somaNumeros` para calcular a soma de receitas e despesas e no fim retornar o saldo do usuário, ou seja `receitas - despesas`.
+The function `calculatesBalance` must use the function `addNumbers` to calculate the sum of incomes and expenses and in the end returns the user's balance, that is `incomes - expenses`.
 
-No fim exiba todos usuários em telas, seu respectivo saldo e SE o saldo é POSITIVO ou NEGATIVO:
+At the end, display all users on screen, their respective balance and `IF` the balance is POSITIVE or NEGATIVE:
 
 ```
-Fulano possui saldo POSITIVO de 43.3
-Sicrano possui saldo NEGATIVO de -90.3
+So-and-so has a POSITIVE balance of 43.3
+So-and-so has a NEGATIVE balance of -90.3
 ```
 
-## :calendar: Entrega
 
-Esse desafio **não precisa ser entregue** e não receberá correção, mas você pode ver um exemplo de solução [aqui](https://github.com/Rocketseat/bootcamp-launchbase-desafios-01/tree/codigos). Após concluí-lo, adicionar esse código ao seu Github é uma boa forma de demonstrar seus conhecimentos para oportunidades futuras.
 
-## :memo: Licença
+## :calendar: Delivery
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](../LICENSE) para mais detalhes.
+These challenges **do not need to be delivered** and will not receive correction, but you can add them to your Github. It is a good way to demonstrate your knowledge for future opportunities.
+
+## :memo: Licence
+
+This project is under the MIT license. See the [LICENSE](../LICENSE) file for more detais.
 
 ---
 
-Feito com :purple_heart: by [Rocketseat](https://rocketseat.com.br) :wave: [Entre na nossa comunidade!](https://discordapp.com/invite/gCRAFhc)
+Built with :purple_heart: by [Rocketseat](https://rocketseat.com.br) :wave: [Join our community!](https://discordapp.com/invite/gCRAFhc)

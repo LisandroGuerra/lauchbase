@@ -3,10 +3,10 @@
 </h1>
 
 <h3 align="center">
-  Desafio 1-4: Aplicação: Operações bancárias 
+  Challenge 1-4: Applicaton: Banking operations 
 </h3>
 
-<blockquote align="center">“Não compare o seu bastidor com o palco do outro!”</blockquote>
+<blockquote align="center">“Don't compare your backstage with the other's stage!”</blockquote>
 
 <p align="center">
 
@@ -21,39 +21,39 @@
 </p>
 
 <p align="center">
-  <a href="#rocket-sobre-o-desafio">Sobre o desafio</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#calendar-entrega">Entrega</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">Licença</a>
+  <a href="#rocket-about-the-challenge">About the challenge</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#calendar-delivery">Delivery</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licence">Licence</a>
 </p>
 
-## :rocket: Sobre o desafio
+## :rocket: About challenge
 
-Desafios para fortalecer alguns conceitos, entre eles:
+Challenges to strengthen some concepts, among them:
 
-- **Booleanos**;
-- **Organização**;
-- **Padronização**;
-- **Escrita**.
+- **Booleans**;
+- **Organization**;
+- **Padronization**;
+- **Writing**.
 
 ### Intro
 
-Crie um programa para realizar operações bancárias na conta de um usuário.
+Create a program to perform banking transactions on user's accounts.
 
-Comece criando um objeto com o nome do usuário, suas transações e saldo.
+Start by creating an object with the user's name, transactions and balance.
 
-As transações (transactions) devem iniciar como um array vazio `[]` e o saldo (balance) em `0` (zero).
+The transactions must start as an empty array `[]` and the balance (balance) at `0` (zero).
 
 ```js
 const user = {
-  name: "Mariana",
+  name: "Lisandra",
   transactions: [],
   balance: 0
 };
 ```
 
-### Adicionar transações
+### Add transactions
 
-Crie uma função `createTransaction` para adicionar uma nova transação no array de transações de um usuário, essa função deve receber como parâmetro um objeto de transação que tem o seguinte formato:
+Create a `createTransaction` function to add a new transaction to a user's transaction array, this function must take as a parameter a transaction object that has the following format:
 
 ```js
 {
@@ -62,35 +62,37 @@ Crie uma função `createTransaction` para adicionar uma nova transação no arr
 }
 ```
 
-O `type` pode ser `credit` para créditos e `debit` para débitos da conta do usuário.
+The `type` can be` credit` for credits or `debit` for debits, of the user's account.
 
-Quanto uma transação for do tipo `credit` ela deve também somar o valor do crédito no saldo (balance) do usuário.
+When a transaction is of the type `credit` it must also add the value of the credit to the balance (balance) of the user.
 
-Se for uma transação do tipo `debit` ela deve subtrair o valor do débito no saldo (balance) do usuário.
+If it is a `debit` transaction, it must subtract the amount of the debit from the user's balance.
 
-_Dica.: Você pode usar o método `user.transactions.push(transaction)` para adicionar um novo item no array de transações._
+_Tip .: You can use the `user.transactions.push (transaction)` method to add a new item to the transaction array._
 
-### Relatórios
 
-- Crie uma função chamada `getHigherTransactionByType` que recebe como parâmetro o tipo de transação `credit/debit`, percorre as transações do usuário e retorna o **objeto** da transação de maior valor com aquele tipo:
+### Reports
 
-```js
-getHigherTransactionByType("credit"); // { type: 'credit', value: 120 }
-```
-
-- Crie uma função chamada `getAverageTransactionValue` que retorna o valor médio das transações de um usuário independente do seu tipo:
+- Create a function called `getHigherTransactionByType` that takes the type of transaction` credit / debit` as a parameter, goes through the user's transactions and returns the **object** of the highest value transaction with that type:
 
 ```js
-getAverageTransactionValue(); // 83.3
+getHigherTransactionByType ("credit"); // {type: 'credit', value: 120}
 ```
 
-- Crie uma função chamada `getTransactionsCount` que retorna o número de transações de cada tipo `credit/debit`, o retorno da função deve ser um objeto e seguir exatamente como o modelo apresentado abaixo:
+- Create a function called `getAverageTransactionValue` that returns the average value of a user's transactions regardless of their type:
 
 ```js
-getTransactionsCount(); // { credit: 5, debit: 3 }
+getAverageTransactionValue (); // 83.3
 ```
 
-### Exemplo de resultado final do projeto:
+- Create a function called `getTransactionsCount` that returns the number of transactions of each type` credit / debit`, the return of the function must be an object and follow exactly as the model presented below:
+
+```js
+getTransactionsCount (); // {credit: 5, debit: 3}
+```
+
+
+### Example of the final result of the project:
 
 ```js
 createTransaction({ type: "credit", value: 50 });
@@ -108,14 +110,15 @@ getAverageTransactionValue(); // 70
 getTransactionsCount(); // { credit: 2, debit: 2 }
 ```
 
-## :calendar: Entrega
 
-Esse desafio **não precisa ser entregue** e não receberá correção, mas você pode ver um exemplo de solução [aqui](https://github.com/Rocketseat/bootcamp-launchbase-desafios-01/tree/codigos). Após concluí-lo, adicionar esse código ao seu Github é uma boa forma de demonstrar seus conhecimentos para oportunidades futuras.
+## :calendar: Delivery
 
-## :memo: Licença
+These challenges **do not need to be delivered** and will not receive correction, but you can add them to your Github. It is a good way to demonstrate your knowledge for future opportunities.
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](../LICENSE) para mais detalhes.
+## :memo: Licence
+
+This project is under the MIT license. See the [LICENSE](../LICENSE) file for more detais.
 
 ---
 
-Feito com :purple_heart: by [Rocketseat](https://rocketseat.com.br) :wave: [Entre na nossa comunidade!](https://discordapp.com/invite/gCRAFhc)
+Built with :purple_heart: by [Rocketseat](https://rocketseat.com.br) :wave: [Join our community!](https://discordapp.com/invite/gCRAFhc)
