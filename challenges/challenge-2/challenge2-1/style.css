@@ -1,7 +1,33 @@
-img {
+html {
+    background-color: black;
 
 }
 
-.links {
+header {
+    display: flex;
+    justify-content: space-between;
 
+}
+
+li {
+    padding: 30px;
+    
+}
+
+h1, a {
+    color: blanchedalmond;
+    padding: 30px;
+}
+
+.avatar {
+    max-width: 300px;
+}
+
+img {
+    border-radius: 50%;
+    display: block;
+    padding: 30px;
+    width: 100%;
+    height: auto;
+    margin: auto;
 }
