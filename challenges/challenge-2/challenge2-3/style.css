@@ -5,6 +5,8 @@ html {
     background-color: black;
     font-family: 'Roboto', sans-serif;
     margin: 0px;
+    color: blanchedalmond;
+    text-align: center;
 }
 
 header {
@@ -20,9 +22,8 @@ li {
     float: left;  
 }
 
-h1, h2, h3, a {
+a {
     color: blanchedalmond;
-    text-decoration: none;
     text-align: center;
 }
 
