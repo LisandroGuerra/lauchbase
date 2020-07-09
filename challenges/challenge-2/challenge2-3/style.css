@@ -53,3 +53,8 @@ img.avatar {
     padding: 8px;
     align-items: center;
 }
+
+.social a {
+    color: darkorange;
+    text-align: center;
+}
