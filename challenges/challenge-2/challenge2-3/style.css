@@ -57,4 +57,5 @@ img.avatar {
 .social a {
     color: darkorange;
     text-align: center;
+    text-decoration: none;
 }
