@@ -16,7 +16,7 @@ header {
     align-items: center;
 }
 
-li {
+header li {
     padding: 15px;
     list-style: none;
     float: left;  
@@ -34,12 +34,7 @@ h2, h3 {
 
 .avatar {
     max-width: 300px;
-}
-
-img.avatar {
-    border-radius: 50%;
-    border: solid 4px;
-    border-color: darkorange;
+    align-content: center;
     display: block;
     padding: 0px;
     width: 100%;
@@ -47,15 +42,30 @@ img.avatar {
     margin: auto;
 }
 
+.avatar img{
+    border-radius: 50%;
+    border: solid 4px;
+    border-color: darkorange;
+    width: 100%;
+}
+
 .social {
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
     padding: 8px;
     align-items: center;
 }
 
-.social a {
+.social h3, .social_link{
+    width: 100%;
+}
+
+.social .social_link li{
+    align-content: center;
+    list-style: none;
+}
+
+.social .social_link a {
     color: darkorange;
-    text-align: center;
     text-decoration: none;
 }
