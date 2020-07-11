@@ -5,6 +5,7 @@ html {
     background-color: black;
     font-family: 'Roboto', sans-serif;
     margin: 0px;
+    padding: 0px;
     color: blanchedalmond;
     text-align: center;
 }
@@ -22,7 +23,7 @@ header li {
     float: left;  
 }
 
-a {
+header li a {
     color: blanchedalmond;
     text-align: center;
 }
@@ -52,20 +53,26 @@ h2, h3 {
 .social {
     display: flex;
     flex-wrap: wrap;
-    padding: 8px;
     align-items: center;
+    justify-content: center;
 }
 
-.social h3, .social_link{
+.social h3{
     width: 100%;
 }
 
-.social .social_link li{
-    align-content: center;
-    list-style: none;
+.social div ul {
+    display: flex;
+    padding: 0px;
 }
 
-.social .social_link a {
+.social div ul li{
+    list-style: none;
+    
+}
+
+.social ul a {
     color: darkorange;
     text-decoration: none;
+    margin: 16px;
 }
