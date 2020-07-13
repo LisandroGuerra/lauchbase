@@ -46,8 +46,12 @@ h2, h3 {
 .avatar img{
     border-radius: 50%;
     border: solid 4px;
-    border-color: darkorange;
+    border-color: orange;
     width: 100%;
+}
+
+.avatar img:hover{
+    border-color: darkorange;
 }
 
 .social {
@@ -72,7 +76,12 @@ h2, h3 {
 }
 
 .social ul a {
-    color: darkorange;
+    color: orange;
     text-decoration: none;
     margin: 16px;
+}
+
+.social ul a:hover {
+    color: darkorange;
+    text-decoration: underline;
 }
