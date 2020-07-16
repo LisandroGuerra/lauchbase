@@ -85,5 +85,6 @@ h2, h3 {
 
 .social ul a:hover {
     color: darkorange;
-    text-decoration: underline;
+    padding-bottom: 2px;
+    border-bottom: 2px solid darkorange;
 }
