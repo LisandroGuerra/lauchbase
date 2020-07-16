@@ -47,13 +47,14 @@ h2, h3 {
     border-radius: 50%;
     border: solid 4px;
     border-color: orange;
-    opacity: 80%;
+    opacity: 70%;
     width: 100%;
 }
 
 .avatar img:hover{
     border-color: darkorange;
     opacity: 100%;
+    transition:all 0.5s ease;
 }
 
 .social {
@@ -79,12 +80,13 @@ h2, h3 {
 
 .social ul a {
     color: orange;
-    text-decoration: none;
     margin: 16px;
 }
 
 .social ul a:hover {
     color: darkorange;
     padding-bottom: 2px;
+    text-decoration: none;
     border-bottom: 2px solid darkorange;
+    transition:all 0.3s ease;
 }
