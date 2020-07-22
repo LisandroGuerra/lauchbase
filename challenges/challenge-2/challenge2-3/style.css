@@ -68,24 +68,24 @@ h2, h3 {
     width: 100%;
 }
 
-.social div ul {
+.social nav ul {
     display: flex;
     padding: 0px;
 }
 
-.social div ul li{
+.social nav ul li{
     list-style: none;
     
 }
 
-.social ul a {
+.social nav ul a {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     color: orangered;
     margin: 16px;
 }
 
-.social ul a:hover {
+.social nav ul a:hover {
     color: darkorange;
     padding-bottom: 2px;
     text-decoration: none;
