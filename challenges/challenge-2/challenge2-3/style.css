@@ -18,7 +18,7 @@ header {
 }
 
 header li {
-    padding: 15px;
+    padding: 16px;
     list-style: none;
     float: left;  
 }
@@ -34,7 +34,7 @@ h2, h3 {
 }
 
 .avatar {
-    max-width: 300px;
+    max-width: 256px;
     align-content: center;
     display: block;
     padding: 0px;
@@ -54,7 +54,7 @@ h2, h3 {
 .avatar img:hover{
     border-color: darkorange;
     opacity: 100%;
-    transition:all 0.6s ease;
+    transition:all 0.8s ease;
 }
 
 .social {
